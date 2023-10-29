@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@font-face {
+  font-family: fontFirst;
+  src: url("bloodcrowci.ttf");
+}
+
+body{
+  background-color:#21373F;
+}
+h1{
+  text-align:center;
+  font-family:fontFirst;
+  font-size: 60px;
+  color: #A4161A;
+}
+.realms{
+display: flex;
+justify-content: space-around;
+  padding-top:2;
+}
+
+
+
+ .realm{
+  display: inline-flex;
+    justify-content: space-around; 
+}
+
+
+
+.god, .demon, .monster, .monster1, .monster2, .monster3, .blank, .carnival, .dungeon, .basement{
+  display: none;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: #21373F;
+}
+
+
+.ultimo{
+width: 70px;
+height: 25px;
+display: none;
+justify-content: space-around;
+
+}
+
+
+button{
+margin: 30px auto;    
+border-radius: 10%;
+background-color:#A4161A;
+padding:5px;
+color:white;
+font-family: fontFirst;
+font-size: 15px;
+text-align: center;
+ }
+
+
